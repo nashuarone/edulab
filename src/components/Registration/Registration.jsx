@@ -25,14 +25,14 @@ const Registration = () => {
   };
   return (
     <div className={s.mainLoginForm}>
-      <h1>Registration</h1>
+      <h1>Регистрация</h1>
       <div className={s.inputsFlex}>
         <input
           className={s.regInput}
           value={email}
           onChange={handlleChangeE}
           type="text"
-          placeholder="Ведите email"
+          placeholder="Введите email"
         />
         <input
           className={s.regInput}
@@ -65,7 +65,7 @@ const Registration = () => {
           className={s.regBtn}
           onClick={() => registrationAPI(email, password, myname, surname)}
         >
-          Зарегестрироваться
+          Зарегеистрироваться
         </button>
       </div>
     </div>
