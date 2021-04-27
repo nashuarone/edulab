@@ -65,7 +65,7 @@ const Registration = () => {
           className={s.regBtn}
           onClick={() => registrationAPI(email, password, myname, surname)}
         >
-          Зарегеистрироваться
+          Зарегистрироваться
         </button>
       </div>
     </div>
